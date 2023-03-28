@@ -1,9 +1,11 @@
 # Ignoring Local Data Files - These can be sourced and created using scripts in the repo
 *.csv
-*.db
 *.parquet
 *.zip
 
+# Ignoring datatypes used by DuckDB
+*.db
+*.wal
+
 # Ignoring VSCode Workspace
 *.code-Workspace
-
