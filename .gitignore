@@ -1,0 +1,9 @@
+# Ignoring Local Data Files - These can be sourced and created using scripts in the repo
+*.csv
+*.db
+*.parquet
+*.zip
+
+# Ignoring VSCode Workspace
+*.code-Workspace
+
